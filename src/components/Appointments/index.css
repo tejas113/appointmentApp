@@ -1,0 +1,95 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #9796f0;
+  height: 100vh;
+}
+
+.secondContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  width: 85%;
+}
+
+.entryAndPhoto {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.formEdit {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.headEdit {
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Roboto';
+}
+
+.input1Edit {
+  border-radius: 8px;
+}
+
+.inputEDIT {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.btnEdit {
+  background-color: yellowgreen;
+  border-radius: 8px;
+  height: 30px;
+  width: 80px;
+  margin-top: 20px;
+  border-width: 0px;
+}
+
+.line {
+  border: 1px solid #dee0e3;
+  width: 100%;
+  margin-top: 16px;
+}
+
+.appointmentsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.staredContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btnEdit {
+  color: #9796f0;
+  background-color: transparent;
+  border-radius: 12px;
+  height: 20px;
+  width: 60px;
+  border-color: black;
+  border-width: 1px;
+  margin-left: 90px;
+}
+
+.ulEdit {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

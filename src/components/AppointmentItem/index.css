@@ -1,0 +1,13 @@
+.headEdit2 {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  border-radius: 8px;
+}
